@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded Puzzle</title>
+  <style>
+    .iframe-container {
+      width: 800px;   /* adjust to match the game area */
+      height: 600px;  /* adjust to match the game area */
+      overflow: hidden;
+      position: relative;
+      border: none;
+    }
+    iframe {
+      width: 1200px;  /* bigger than container */
+      height: 1000px; /* bigger than container */
+      border: none;
+      transform: translate(-200px, -150px); 
+      /* adjust these offsets until only the game grid is visible */
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe src="https://puzzel.org/en/wordseeker/play?p=-OScKb-araPm-nWcTIoa"></iframe>
+  </div>
+</body>
+</html>
